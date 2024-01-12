@@ -12,7 +12,7 @@ A verssão 1.0 possibilita a coleta de todos os relógios de uma vez baseado na 
 &nbsp;
 ## ⚙️ Pré-requisitos
 
-Para realizar a instalaÃ§Ã£o dos requisitos basta instala-los utilizando o comando abaixo.
+Para realizar a instalação dos requisitos basta instala-los utilizando o comando abaixo.
 Obs: o projeto foi feito para ser utilizado em maquinas com Windows 10.
 
 **Instalação de todas as bibliotecas utilizadas no projeto**
