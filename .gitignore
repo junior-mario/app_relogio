@@ -1,4 +1,5 @@
 /venv
+/Executavel
 app.py
 bypass_ssl_insecurities.py
 interface.py
