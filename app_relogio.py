@@ -104,7 +104,7 @@ def verifica_relogios():
             "192.168.2.19:443:Golfe_CHQB",
             "192.168.2.17:443:Hipico_SRQB",
             "192.168.2.22:443:Bombeiros", 
-            "10.0.128.74:443:Reserva" 
+            "10.0.128.74:443:Reserva"
             ]
 
     for server in servers:
@@ -227,7 +227,7 @@ for relogio in lista_up:
     url="https://" + ip + "/"
     #print(url)
     #driver.get(url)
-    if ip == "10.0.128.74" or ip == "192.168.1.131" or ip == "192.168.2.22" or ip == "192.168.2.19":
+    if ip == "10.0.128.74" or ip == "192.168.1.131" or ip == "192.168.2.22" or ip == "192.168.2.19" or ip == "192.168.2.18":
             print("senha é admin")
             password = "admin"
     else:
@@ -249,9 +249,10 @@ for relogio in lista_up:
 
     time.sleep(2)
     driver.maximize_window()
+    time.sleep(2)
     elemento = driver.find_element(By.XPATH, '//*[@id="MasterPage_menu"]/div/ul/li[4]/a').click()
     #driver.find_element(By.XPATH, '//*[@id="MasterConteudo"]/div[3]/div/div[3]/button[1]').text
-
+    time.sleep(2)
     # codigo para poder abrir o popup
     WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="MasterPage_menu"]/div/ul/li[4]/ul/li[3]/a'))).click()
 
